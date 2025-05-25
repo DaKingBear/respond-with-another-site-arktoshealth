@@ -10,6 +10,6 @@ export default {
 		}
 		// Only GET requests work with this proxy.
 		if (request.method !== "GET") return MethodNotAllowed(request);
-		return fetch(`https://example.com`);
+		return fetch(`https://teddy-botana-lmft.clientsecure.me/`);
 	},
 } satisfies ExportedHandler;
